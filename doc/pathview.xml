@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="nick"><module name="PathView"><short>provides components which can be installed to the component palette of Lazarus</short><element name="TPathTreeView"><short>component like TTreeView but extended with an interface, which provides the tree as a list of paths</short>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

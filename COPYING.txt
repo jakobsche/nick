@@ -1,0 +1,5 @@
+This is the file COPYING. It gives an overview of the licenses used in the
+sources of these Lazarus packages.
+
+These Lazarus packages sources use the same modified LGPL as the Lazarus Component Library (LCL). They are made to be installed in the Lazarus IDE or in Lazarus projects like Packages of the LCL.
+In general, each file contains a header, describing the license of the file.
