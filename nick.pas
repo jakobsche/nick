@@ -4,16 +4,18 @@
 
 unit nick;
 
+{$warn 5023 off : no warning about unused units}
 interface
 
 uses
-  PathView, LazarusPackageIntf;
+  PathView, PresEdit, LazarusPackageIntf;
 
 implementation
 
 procedure Register;
 begin
   RegisterUnit('PathView', @PathView.Register);
+  RegisterUnit('PresEdit', @PresEdit.Register);
 end;
 
 initialization
