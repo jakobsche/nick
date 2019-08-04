@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fpdoc-descriptions><package name="nick"><module name="DTV"><element name="TDetailledTreeView"><short>Shows Details of a tree view node in a linked list view</short><descr>If the property ListView points to a list view, the list view is filled with the child nodes of the selected tree node.
+</descr>
+      </element><element name="TDetailledTreeView.ListView"><short>points to a list for details about the selected tree node</short><descr>The list view ist filled with the child node names of the selected tree node by default.
+</descr>
+      </element>
+    </module>
+  </package>
+</fpdoc-descriptions>

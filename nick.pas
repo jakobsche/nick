@@ -8,7 +8,7 @@ unit nick;
 interface
 
 uses
-  PathView, PresEdit, LazarusPackageIntf;
+  PathView, PresEdit, DTV, LazarusPackageIntf;
 
 implementation
 
@@ -16,6 +16,7 @@ procedure Register;
 begin
   RegisterUnit('PathView', @PathView.Register);
   RegisterUnit('PresEdit', @PresEdit.Register);
+  RegisterUnit('DTV', @DTV.Register);
 end;
 
 initialization
