@@ -1,0 +1,3 @@
+This can be done to improve that package in future:
+
+- add icon graphics for the component palette
